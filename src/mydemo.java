@@ -5,5 +5,12 @@ public class mydemo {
         System.out.println("new statement!");
         System.out.println("hello");
         ArrayList<Integer> list  =new ArrayList<>();
+
+        for(int var:list){
+            if(var==6)
+            System.out.println(var);
+        }
+
+        System.out.println("end!");
      }
 }
