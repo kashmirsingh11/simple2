@@ -11,6 +11,8 @@ public class mydemo {
             System.out.println(var);
         }
 
-        System.out.println("end!");
+        for(int i=0;i<10;i++){
+            System.out.println(i);
+        }
      }
 }
